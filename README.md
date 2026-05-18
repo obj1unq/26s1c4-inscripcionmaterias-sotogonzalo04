@@ -6,7 +6,7 @@ En esta universidad de cada materia hay un único curso y sólo vamos a manejar 
 En cambio, sí debemos conocer el historial de materias aprobadas de un estudiante. 
 De cada materia aprobada hay que saber qué materia aprobó y con qué nota.
 
-Cada materia pertenece a una única carrera. Pero, un estudiante puede estar cursando distintas carreras. 
+Cada materia pertenece a una única carrera. Pero, un estudiante puede estar cursando distintas carreras.
 
 En los ejemplos incluiremos tres carreras: _Programación_, _Medicina_ y _Derecho_.
 - Programación incluye, entre otras, estas materias: Elementos de Programación, Matemática 1, Objetos 1, Objetos 2, Objetos 3, Trabajo Final, Bases de Datos. 

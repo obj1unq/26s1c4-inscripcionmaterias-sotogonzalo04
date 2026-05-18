@@ -1,22 +1,22 @@
+object universidad{}
 class Materia{
-	
+	var property carrera
+
 }
 
 class Carrera{
-	// coleecion materias de su carrera
-	//
+	var property materias
 }
 
 class MateriaAprobada{
 	var property materia
 	var property nota
- 
 }
 class Estudiante{
-	var materiasAprobadas = #{} // Lista de MateriaAprobada
-	var property carreras
+	var property materiasAprobadas = #{} // Lista de MateriaAprobada
+	var property carrerasInscriptas = #{}
 	
-	method aprobo(materia_) = materiasAprobadas.any({ materiaAprobada => materiaAprobada.materia() == materia_ }) 
+	method aprobo(materia) = materiasAprobadas.any({ materiaAprobada => materiaAprobada.materia() == materia }) 
 
 	method aprobar(materia, nota){
 		if (self.aprobo(materia)){
@@ -33,6 +33,7 @@ class Estudiante{
 
 	method promedio() = materiasAprobadas.average{ materiaAprobada => materiaAprobada.nota()}
 
+	method puedeInscribirse(materia) = carrerasInscriptas.contains(materia.carrera()) 
 
 }
 
