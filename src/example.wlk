@@ -3,7 +3,8 @@ class Materia{
 }
 
 class Carrera{
-	
+	// coleecion materias de su carrera
+	//
 }
 
 class MateriaAprobada{
@@ -13,7 +14,7 @@ class MateriaAprobada{
 }
 class Estudiante{
 	var materiasAprobadas = #{} // Lista de MateriaAprobada
-	var property promedio
+	var property carreras
 	
 	method aprobo(materia_) = materiasAprobadas.any({ materiaAprobada => materiaAprobada.materia() == materia_ }) 
 
