@@ -19,7 +19,7 @@ Implementar un modelo que permita resolver los siguientes **requerimientos**.
 
 1. Registrar una materia aprobada por un estudiante indicando la nota obtenida. Si el estudiante ya tiene registrada la aprobación de la materia, se debe lanzar un error. 
 
-    > **Tip**:   
+    > **Tip**:
     La nota con la que un estudiante aprobó una materia, no puede ser atributo del estudiante (porque un estudiante tiene muchas notas) ni de la materia (porque una materia tiene muchos estudiantes y cada uno tiene su nota). Entonces se necesita un objeto que represente "Juan Pérez aprobó Objetos 1 con 7", que es distinto tanto al objeto que representa a Juán Pérez como al objeto que representa a la materia Objetos 1.
 
 1. Saber para un estudiante: si tiene o no aprobada una materia, la cantidad de materias aprobadas, el promedio.

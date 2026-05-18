@@ -1,0 +1,11 @@
+{"level":"info","message":"⌛ Building environment","timeElapsed":181,"timestamp":"2026-05-13T23:44:41.779Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":171,"timestamp":"2026-05-13T23:44:41.955Z"}
+{"level":"info","message":"⌛ Validating src/example.wlk","timeElapsed":230,"timestamp":"2026-05-13T23:44:42.185Z"}
+{"level":"info","message":"⌛ Validating src/example.wlk","timeElapsed":115,"timestamp":"2026-05-13T23:44:42.301Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":102,"timestamp":"2026-05-13T23:44:43.537Z"}
+{"level":"info","message":"⌛ Validating src/example.wlk","timeElapsed":103,"timestamp":"2026-05-13T23:44:43.641Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":144,"timestamp":"2026-05-13T23:44:44.614Z"}
+{"level":"info","message":"⌛ Validating src/example.wlk","timeElapsed":147,"timestamp":"2026-05-13T23:44:44.781Z"}
+{"level":"info","message":"⌛ Validating src/example.wlk","timeElapsed":126,"timestamp":"2026-05-13T23:44:45.747Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":148,"timestamp":"2026-05-13T23:44:46.200Z"}
+{"level":"info","message":"⌛ Validating src/example.wlk","timeElapsed":122,"timestamp":"2026-05-13T23:44:47.035Z"}
