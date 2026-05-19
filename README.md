@@ -6,7 +6,7 @@ En esta universidad de cada materia hay un único curso y sólo vamos a manejar 
 En cambio, sí debemos conocer el historial de materias aprobadas de un estudiante. 
 De cada materia aprobada hay que saber qué materia aprobó y con qué nota.
 
-Cada materia pertenece a una única carrera. Pero, un estudiante puede estar cursando distintas carreras. 
+Cada materia pertenece a una única carrera. Pero, un estudiante puede estar cursando distintas carreras.
 
 En los ejemplos incluiremos tres carreras: _Programación_, _Medicina_ y _Derecho_.
 - Programación incluye, entre otras, estas materias: Elementos de Programación, Matemática 1, Objetos 1, Objetos 2, Objetos 3, Trabajo Final, Bases de Datos. 
@@ -19,7 +19,7 @@ Implementar un modelo que permita resolver los siguientes **requerimientos**.
 
 1. Registrar una materia aprobada por un estudiante indicando la nota obtenida. Si el estudiante ya tiene registrada la aprobación de la materia, se debe lanzar un error. 
 
-    > **Tip**:   
+    > **Tip**:
     La nota con la que un estudiante aprobó una materia, no puede ser atributo del estudiante (porque un estudiante tiene muchas notas) ni de la materia (porque una materia tiene muchos estudiantes y cada uno tiene su nota). Entonces se necesita un objeto que represente "Juan Pérez aprobó Objetos 1 con 7", que es distinto tanto al objeto que representa a Juán Pérez como al objeto que representa a la materia Objetos 1.
 
 1. Saber para un estudiante: si tiene o no aprobada una materia, la cantidad de materias aprobadas, el promedio.
